@@ -1,0 +1,28 @@
+\section{Mathematical model}
+\label{chap:model}
+\subsection{Love surface acoustic waves}
+\label{saw}
+Let us consider Love surface acoustic waves~\cite{} propagating in a structure
+consisting of an elastic layer placed on a surface of another elastic medium. The upper surface of
+an elastic layer if free of stresses. General equation of motion for surface acoustic
+waves~\cite{Landau_theoryofelasticity} is:
+
+\begin{equation}
+\label{mot eq gen}
+\begin{aligned}
+\begin{aligned}&\rho \frac{\partial ^2\vec{U}}{\partial t^2}=\mu \nabla^2 \vec{U} + (\lambda+\mu) \nabla (\nabla \cdot \vec{U})  \end{aligned}
+\end{aligned}
+\end{equation}
+where $\vec{U}$ is elastic displacement, $\mu$ and $\lambda$ are Lame parameters, $\rho$ is density. 
+
+Elastic displacement in Love waves has the only one shear component directed and is not varied along
+the $Ox$ axis. For this case equation~\eqref{mot eq gen} can be simplified:
+\begin{equation}
+	\label{mot eq}
+	\rho(y,z)\frac{\partial ^2U_x(y,z)}{\partial t^2}=\mu(y,z) \nabla^2 U_x(y,z)
+\end{equation}
+with
+\begin{equation*}
+	\rho(y,z), \mu(y,z) = 
+	\left\{\begin{aligned}&\rho_l, \mu_l  && 0<y<\varphi(z) \\ &\rho,\mu  && y<0  \end{aligned}\right.,
+\end{equation*}
